@@ -1,0 +1,71 @@
+DevelopersHub Corporation — AI/ML Engineering Internship Program (Phase 2)
+
+== Program Overview ==
+DevelopersHub Corporation runs an AI/ML Engineering Internship that gives students
+hands-on experience with cutting-edge machine learning and artificial intelligence
+techniques, including transformer models, ML pipelines, multimodal learning,
+conversational AI, and LLM applications. Interns are required to complete at least
+3 out of 5 advanced tasks within the given timeline, though completing all 5 is
+encouraged for building a stronger technical portfolio.
+
+== Task 1: News Topic Classifier Using BERT ==
+Objective: Fine-tune a transformer model (such as BERT) to classify news headlines
+into topic categories. Dataset: AG News Dataset, available on Hugging Face Datasets.
+Instructions: tokenize and preprocess the dataset, fine-tune the bert-base-uncased
+model using Hugging Face Transformers, evaluate the model using accuracy and
+F1-score, then deploy the model using Streamlit or Gradio for live interaction.
+Skills gained: NLP using Transformers, transfer learning and fine-tuning,
+evaluation metrics for text classification, and lightweight model deployment.
+
+== Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API ==
+Objective: Build a reusable and production-ready machine learning pipeline for
+predicting customer churn. Dataset: Telco Churn Dataset. Instructions: implement
+data preprocessing steps such as scaling and encoding using scikit-learn's
+Pipeline, train models like Logistic Regression and Random Forest, use
+GridSearchCV for hyperparameter tuning, and export the complete pipeline using
+joblib. Skills gained: ML pipeline construction, hyperparameter tuning with
+GridSearch, model export and reusability, and production-readiness practices.
+
+== Task 3: Multimodal ML — Housing Price Prediction Using Images and Tabular Data ==
+Objective: Predict housing prices using both structured data and house images.
+Dataset: Housing Sales Dataset plus a custom image dataset. Instructions: use CNNs
+to extract features from images, combine extracted image features with tabular
+data, train a model using both modalities, and evaluate performance using MAE and
+RMSE. Skills gained: multimodal machine learning, convolutional neural networks,
+feature fusion of image and tabular data, and regression modeling and evaluation.
+
+== Task 4: Context-Aware Chatbot Using LangChain or RAG ==
+Objective: Build a conversational chatbot that can remember context and retrieve
+external information during conversations. Dataset: a custom corpus, such as
+Wikipedia pages, internal documents, or any knowledge base. Instructions: use
+LangChain or Retrieval-Augmented Generation (RAG), implement context memory for
+conversational history, retrieve answers from a vectorized document store, and
+deploy the chatbot with Streamlit. Skills gained: conversational AI development,
+document embedding and vector search, Retrieval-Augmented Generation, and LLM
+integration and deployment.
+
+== Task 5: Auto Tagging Support Tickets Using LLM ==
+Objective: Automatically tag support tickets into categories using a large
+language model. Dataset: a free-text support ticket dataset. Instructions: use
+prompt engineering or fine-tuning with an LLM, compare zero-shot versus
+fine-tuned performance, apply few-shot learning techniques to improve accuracy,
+and output the top 3 most probable tags per ticket. Skills gained: prompt
+engineering, LLM-based text classification, zero-shot and few-shot learning, and
+multi-class prediction and ranking.
+
+== Submission Requirements ==
+Each completed task must be uploaded to a GitHub repository and submitted via
+Google Classroom. The checklist for each task includes: a Jupyter Notebook or
+Script File covering the problem statement and objective, dataset loading and
+preprocessing, model development and training, evaluation with relevant metrics,
+visualizations where applicable, and a final summary with insights. Code quality
+matters too — clear structure, logical flow, and comments explaining major steps.
+The GitHub repository should have a clear name and organization, and the
+README.md must include the objective of the task, the methodology or approach
+used, and key results or observations. Finally, the GitHub repository link for
+each completed task should be submitted on Google Classroom.
+
+== Important Notes ==
+The deadline to complete at least 3 out of 5 tasks is 30th June, 2026. Interns are
+encouraged to complete all 5 tasks for advanced portfolio building, and to share
+their work on GitHub and LinkedIn to showcase their skills.
